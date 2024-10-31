@@ -43,7 +43,7 @@ This package contains a set of useful Bootstrap Laravel Blade components. It pro
 Require the package via composer:
 
 ```console
-composer require bastinald/laravel-bootstrap-components
+composer require nawrasbukhari/laravel-bootstrap-components
 ```
 
 ## Components

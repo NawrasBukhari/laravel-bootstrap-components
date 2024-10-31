@@ -4,6 +4,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Font Awesome CDN
+    |--------------------------------------------------------------------------
+    |
+    | This value is the URL to the Font Awesome CDN. If you are using the
+    | Font Awesome Pro icons, you will need to update this to the pro-CDN.
+    |
+    | Supported: "https://use.fontawesome.com/releases/v6.6.0/css/all.css"
+    */
+
+    'font_awesome_cdn' => 'https://use.fontawesome.com/releases/v6.6.0/css/all.css',
+
+    /*
+    |--------------------------------------------------------------------------
     | Font Awesome Style
     |--------------------------------------------------------------------------
     |
@@ -22,7 +35,7 @@ return [
     | Use With Model Trait
     |--------------------------------------------------------------------------
     |
-    | This value specifies if you are using the WithModel trait for modelled
+    | This value specifies if you are using the WithModel trait for modeled
     | form data in your Livewire components. This trait allows you to use a
     | single $model property for form data, rather than a ton of separate ones.
     |

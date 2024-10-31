@@ -1,7 +1,8 @@
 <?php
 
-namespace Bastinald\LaravelBootstrapComponents\Providers;
+namespace NawrasBukhari\LaravelBootstrapComponents\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelBootstrapComponentsProvider extends ServiceProvider

@@ -1,9 +1,10 @@
 <?php
 
-namespace Bastinald\LaravelBootstrapComponents\Traits;
+namespace NawrasBukhari\LaravelBootstrapComponents\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
 
 trait WithModel
@@ -11,7 +12,7 @@ trait WithModel
     public $model = [];
     private $modelCollection;
 
-    public function model()
+    public function model(): Collection
     {
         if (!$this->modelCollection) {
             $this->modelCollection = collect($this->model);
